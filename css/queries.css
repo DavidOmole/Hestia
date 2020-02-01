@@ -1,0 +1,194 @@
+/* Small tablets to big tablets */
+@media only screen and (max-width: 1024px) {
+  header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.36), rgba(0, 0, 0, 0.36)),
+      url(/css/img/1024px.jpg) !important;
+  }
+
+  .row {
+    padding: 0 6%;
+  }
+  .logo {
+    margin: 30px 0 0 60px !important;
+    font-size: 180% !important;
+  }
+
+  .main-nav {
+    margin-top: 58px !important;
+  }
+
+  blockquote {
+    /* font-size: 90% !important; */
+  }
+  .span-1-of-2 p {
+    margin: 3% 0 5% 0 !important;
+  }
+  form .row {
+    padding: 0 2%;
+  }
+}
+
+@media only screen and (max-width: 920px) {
+  .main-nav {
+    margin-top: 45px !important;
+  }
+
+  html {
+    font-size: 18px !important;
+  }
+}
+
+/* Small Phones to small tablets */
+@media only screen and (max-width: 768px) {
+  header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.36), rgba(0, 0, 0, 0.36)),
+      url(/css/img/768px1.jpg) !important;
+  }
+
+  section {
+    margin: 70px 0 !important;
+  }
+  .main-nav {
+    display: none !important;
+  }
+  .logo {
+    font-size: 220% !important;
+    margin-left: 40px;
+  }
+  .hero-text-box {
+    top: 31% !important;
+  }
+  section.why-us img {
+    width: 50% !important;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+  }
+
+  .reason p {
+    font-size: 90% !important;
+  }
+
+  blockquote {
+    font-size: 85%;
+    padding: 4% 0.3% 0 2% !important;
+  }
+  .span-1-of-2 {
+    padding: 0 20px;
+  }
+  .span-1-of-2 p {
+    margin-left: 4px;
+  }
+
+  cite {
+    font-size: 17px !important;
+  }
+  cite img {
+    height: 45px !important;
+    margin-right: 4px;
+  }
+
+  form {
+    padding: 30px 25px !important;
+  }
+
+  form .row {
+    padding: 0;
+  }
+
+  input,
+  textarea {
+    width: 96% !important;
+    font-size: 100%;
+  }
+  .review-section .span-1-of-2 {
+    width: 100% !important;
+  }
+  .span-1-of-2 p {
+    display: block;
+    text-align: center !important;
+  }
+  blockquote {
+    font-size: 100%;
+    padding: 4% 0.3% 0 2% !important;
+    text-align: center !important;
+  }
+  .house {
+    display: none;
+  }
+  cite {
+    display: block;
+    text-align: center;
+  }
+}
+
+/* Small Phones */
+@media only screen and (max-width: 480px) {
+  header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.36), rgba(0, 0, 0, 0.36)),
+      url(/css/img/520px.jpg) !important;
+    height: 85vh !important;
+  }
+
+  html {
+    font-size: 12px !important;
+  }
+
+  h1 {
+    font-size: 260% !important;
+  }
+
+  h3 {
+    font-size: 140% !important;
+  }
+
+  h4 {
+    font-size: 130% !important;
+  }
+
+  .logo {
+    float: left;
+    color: white;
+    font-size: 180% !important;
+    font-weight: 600;
+    margin-top: 18px;
+    letter-spacing: 1px;
+  }
+  .featured-slider {
+    padding: 0 40px 15px 40px;
+  }
+  .span-1-of-3 p {
+    margin-top: 15px !important;
+    margin-bottom: 25px;
+  }
+  .box .home-picture {
+    width: 100%;
+    height: 180px !important;
+  }
+  .card-details {
+    margin: 7px 0;
+  }
+
+  .row {
+    padding: 0 25px;
+  }
+
+  .top-padding {
+    padding-top: 30px;
+  }
+  .reason {
+    margin-top: 12px !important;
+  }
+
+  .featured-slider {
+    padding: 0 40px 15px 40px !important;
+  }
+
+  blockquote::before {
+  }
+
+  form {
+    width: 85% !important;
+    padding: 10px !important;
+  }
+}
