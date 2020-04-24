@@ -118,6 +118,7 @@ h4 {
 .hero-text-box {
   position: absolute;
   top: 30%;
+  text-align: center;
 }
 .hero-text-box p {
   color: white;
