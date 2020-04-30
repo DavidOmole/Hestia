@@ -11,7 +11,6 @@ html {
 }
 
 section {
-  margin: 130px 0;
 }
 /*******************************/
 /**HEADER**/
@@ -51,10 +50,7 @@ a:visited {
 /*******************************/
 /**Reusable Components**/
 /*******************************/
-.row {
-  max-width: 1140px;
-  margin: 0 auto;
-}
+
 /* .container {
   padding: 0 70px;
   width: auto;
@@ -85,16 +81,15 @@ h1 {
   color: white;
   font-size: 400%;
 }
-h3 {
+/* h3 {
   font-size: 180%;
-  font-weight: 700;
-}
+} */
 h3,
 h4 {
   text-align: center;
 }
 
-h3:after {
+h4:after {
   content: "";
   display: block;
   width: 120px;
@@ -106,10 +101,9 @@ h3:after {
 
 h4 {
   font-size: 120%;
-  color: #8d8b8b;
   text-align: center;
   margin-top: 40px;
-  letter-spacing: 4px;
+  letter-spacing: 2px;
 }
 
 /*******************************/
@@ -120,6 +114,7 @@ h4 {
   top: 30%;
   text-align: center;
 }
+
 .hero-text-box p {
   color: white;
   max-width: 50%;
@@ -156,6 +151,8 @@ h4 {
   width: auto;
   padding: 3px;
   text-align: center;
+  border: none;
+  color: white !important;
 }
 
 .login {
@@ -173,14 +170,34 @@ h4 {
 .main-nav .btn-light-brown {
   border-radius: 5px;
 }
+/* ................ */
+/* SELECT DROPDOWNS */
+/* ................ */
 
-/* .btn-light-brown a:nth-child(2) {
-  background-color: white;
-  color: #684138 !important;
-  padding: 2px 6px;
-  margin-left: 10px;
-  border-radius: 5px;
-} */
+select {
+  width: 100%;
+  height: auto;
+  padding: 20px 10px;
+  color: black;
+  border: 0;
+  font-size: 80%;
+  outline: none;
+}
+
+.col-btn-container {
+  height: 100%;
+  width: 100%;
+}
+button img {
+  width: 20px;
+  height: auto;
+  margin: 10px;
+}
+.box-shadow {
+  box-shadow: 0px 2px 40px 2px #a9a9a935;
+  border-radius: 7px;
+}
+
 .top-margin {
   margin-top: 10%;
 }
@@ -197,7 +214,6 @@ h4 {
   max-width: 1120px;
 }
 .featured-slider {
-  padding: 0 60px;
   padding-bottom: 15px;
 }
 .box {

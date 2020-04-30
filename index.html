@@ -32,7 +32,17 @@
       <nav class="navbar navbar-expand-md">
         <div class="container">
           <a href="#" class="navbar-brand logo">housify<span>.</span></a>
-
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarToggleExternalContent"
+            aria-controls="navbarToggleExternalContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
           <ul class="main-nav navbar-nav">
             <li class="nav-item">
               <a class="nav-link" href="#"> Home</a>
@@ -50,212 +60,240 @@
               <a class="d-inline-block" href="#">
                 Sign Up
               </a>
-
-              <a class="login ml-3 d-inline-block" href=""
-                ><img src="/css/svg/login.svg" alt=""
-              /></a>
             </li>
           </ul>
         </div>
       </nav>
-      <div class="container">
-        <div class="hero-text-box text-md-left">
-          <div class="main-hero-text remove-linebreak">
-            <h1>
-              Let Us Guide
-              <br />
-              You Home.
-            </h1>
-          </div>
-          <p class="hero-paragraph text-lg-left">
-            Housify is an all-in-one real estate site that gives you the local
-            scoop about buildings and homes for sale in the United Kingdom.
-          </p>
+      <!-- <div class="container">
+        <div class="row"> -->
+      <div class="hero-text-box text-lg-left ml-lg-5">
+        <div class="main-hero-text remove-linebreak">
+          <h1>
+            Let Us Guide
+            <br />
+            You Home.
+          </h1>
         </div>
+        <p class="hero-paragraph mx-auto text-sm-center mx-lg-0 text-lg-left">
+          Housify is an all-in-one real estate site that gives you the local
+          scoop about buildings and homes for sale in the United Kingdom.
+        </p>
       </div>
+      <!-- </div>
+      </div> -->
     </header>
 
     <section class="featured-section">
-      <div class="row">
-        <h3 class="title">Featured Homes</h3>
-      </div>
-
-      <div class="featured-slider">
-        <div class="box">
-          <a href="#">
-            <img class="home-picture" src="/css/img/features-1.jpg" alt="" />
-            <p class="card-title">Honeysuckle Cottage</p>
-            <div class="card-details">
-              <div class="bedroom-details">
-                <img src="/css/svg/bed.svg" class="icon-small" alt="" />
-                &nbsp 3
-              </div>
-
-              <div class="bathroom-details">
-                <img src="/css/svg/bathroom.svg" class="icon-small" alt="" />
-                &nbsp 4
-              </div>
-
-              <div class="price-details">
-                <img
-                  src="/css/svg/dollar.png"
-                  class="icon-small dollar-icon-fix"
-                  alt=""
-                />
-                4500
-              </div>
+      <div class="container mt-lg-5 mt-sm-0 mb-5">
+        <div class="row mx-lg-5 box-shadow font-weight-bold">
+          <div class="col-sm">
+            <select name="" class="font-weight-bold">
+              <option value="1" selected disabled>Location</option>
+              <option value="2">Purfleet</option>
+              <option value=""></option>
+            </select>
+          </div>
+          <div class="col-sm">
+            <select name="" class="font-weight-bold">
+              <option value="1" selected disabled>House Type</option>
+            </select>
+          </div>
+          <div class="col-sm">
+            <select name="" class="font-weight-bold">
+              <option value="1" selected disabled>Max Price</option>
+            </select>
+          </div>
+          <div class="col-sm">
+            <div class="col-btn-container py-2 ml-lg-1">
+              <button class="btn btn-light-brown mx-auto d-block">
+                <img src="/css/svg/search.png" alt="" />
+              </button>
             </div>
-          </a>
-        </div>
-
-        <div class="box">
-          <a href="#">
-            <img class="home-picture" src="/css/img/features-2.jpg" alt="" />
-            <p class="card-title">The Willows</p>
-            <div class="card-details">
-              <div class="bedroom-details">
-                <img src="/css/svg/bed.svg" class="icon-small" alt="" />
-                &nbsp 2
-              </div>
-
-              <div class="bathroom-details">
-                <img src="/css/svg/bathroom.svg" class="icon-small" alt="" />
-                &nbsp 3
-              </div>
-
-              <div class="price-details">
-                <img
-                  src="/css/svg/dollar.png"
-                  class="icon-small dollar-icon-fix"
-                  alt=""
-                />
-                4500
-              </div>
-            </div>
-          </a>
-        </div>
-
-        <div class="box">
-          <a href="#">
-            <img class="home-picture" src="/css/img/features-3.jpg" alt="" />
-            <p class="card-title">The Foxwood Place</p>
-            <div class="card-details">
-              <div class="bedroom-details">
-                <img src="/css/svg/bed.svg" class="icon-small" alt="" />
-                &nbsp 5
-              </div>
-
-              <div class="bathroom-details">
-                <img src="/css/svg/bathroom.svg" class="icon-small" alt="" />
-                &nbsp 6
-              </div>
-
-              <div class="price-details">
-                <img
-                  src="/css/svg/dollar.png"
-                  class="icon-small dollar-icon-fix"
-                  alt=""
-                />
-                7700
-              </div>
-            </div>
-          </a>
-        </div>
-
-        <div class="box">
-          <a href="#">
-            <img class="home-picture" src="/css/img/features-4.jpg" alt="" />
-            <p class="card-title">The Hollies</p>
-            <div class="card-details">
-              <div class="bedroom-details">
-                <img src="/css/svg/bed.svg" class="icon-small" alt="" />
-                &nbsp 3
-              </div>
-
-              <div class="bathroom-details">
-                <img src="/css/svg/bathroom.svg" class="icon-small" alt="" />
-                &nbsp 3
-              </div>
-
-              <div class="price-details">
-                <img
-                  src="/css/svg/dollar.png"
-                  class="icon-small dollar-icon-fix"
-                  alt=""
-                />
-                6500
-              </div>
-            </div>
-          </a>
-        </div>
-
-        <div class="box">
-          <a href="#">
-            <img class="home-picture" src="/css/img/features-5.jpg" alt="" />
-            <p class="card-title">Thornfield Cabin</p>
-            <div class="card-details">
-              <div class="bedroom-details">
-                <img src="/css/svg/bed.svg" class="icon-small" alt="" />
-                &nbsp 3
-              </div>
-
-              <div class="bathroom-details">
-                <img src="/css/svg/bathroom.svg" class="icon-small" alt="" />
-                &nbsp 3
-              </div>
-
-              <div class="price-details">
-                <img
-                  src="/css/svg/dollar.png"
-                  class="icon-small dollar-icon-fix"
-                  alt=""
-                />
-                4500
-              </div>
-            </div>
-          </a>
-        </div>
-
-        <div class="box">
-          <a href="#">
-            <img class="home-picture" src="/css/img/feature-6.jpg" alt="" />
-            <p class="card-title">The couch house</p>
-            <div class="card-details">
-              <div class="bedroom-details">
-                <img src="/css/svg/bed.svg" class="icon-small" alt="" />
-                &nbsp 3
-              </div>
-
-              <div class="bathroom-details">
-                <img src="/css/svg/bathroom.svg" class="icon-small" alt="" />
-                &nbsp 3
-              </div>
-
-              <div class="price-details">
-                <img
-                  src="/css/svg/dollar.png"
-                  class="icon-small dollar-icon-fix"
-                  alt=""
-                />
-                9900
-              </div>
-            </div>
-          </a>
+          </div>
         </div>
       </div>
-      <div class="row">
-        <div class="text-right">
-          <i class="fas fa-arrow-left prev arrow-font"></i>
-          <i class="fas fa-arrow-right next arrow-font"></i>
+      <div class="container">
+        <h4 class="title">Featured Homes</h4>
+      </div>
+
+      <div class="container">
+        <div class="featured-slider">
+          <div class="box">
+            <a href="#">
+              <img class="home-picture" src="/css/img/features-1.jpg" alt="" />
+              <p class="card-title">Honeysuckle Cottage</p>
+              <div class="card-details">
+                <div class="bedroom-details">
+                  <img src="/css/svg/bed.svg" class="icon-small" alt="" />
+                  &nbsp 3
+                </div>
+
+                <div class="bathroom-details">
+                  <img src="/css/svg/bathroom.svg" class="icon-small" alt="" />
+                  &nbsp 4
+                </div>
+
+                <div class="price-details">
+                  <img
+                    src="/css/svg/dollar.png"
+                    class="icon-small dollar-icon-fix"
+                    alt=""
+                  />
+                  4500
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <div class="box">
+            <a href="#">
+              <img class="home-picture" src="/css/img/features-2.jpg" alt="" />
+              <p class="card-title">The Willows</p>
+              <div class="card-details">
+                <div class="bedroom-details">
+                  <img src="/css/svg/bed.svg" class="icon-small" alt="" />
+                  &nbsp 2
+                </div>
+
+                <div class="bathroom-details">
+                  <img src="/css/svg/bathroom.svg" class="icon-small" alt="" />
+                  &nbsp 3
+                </div>
+
+                <div class="price-details">
+                  <img
+                    src="/css/svg/dollar.png"
+                    class="icon-small dollar-icon-fix"
+                    alt=""
+                  />
+                  4500
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <div class="box">
+            <a href="#">
+              <img class="home-picture" src="/css/img/features-3.jpg" alt="" />
+              <p class="card-title">The Foxwood Place</p>
+              <div class="card-details">
+                <div class="bedroom-details">
+                  <img src="/css/svg/bed.svg" class="icon-small" alt="" />
+                  &nbsp 5
+                </div>
+
+                <div class="bathroom-details">
+                  <img src="/css/svg/bathroom.svg" class="icon-small" alt="" />
+                  &nbsp 6
+                </div>
+
+                <div class="price-details">
+                  <img
+                    src="/css/svg/dollar.png"
+                    class="icon-small dollar-icon-fix"
+                    alt=""
+                  />
+                  7700
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <div class="box">
+            <a href="#">
+              <img class="home-picture" src="/css/img/features-4.jpg" alt="" />
+              <p class="card-title">The Hollies</p>
+              <div class="card-details">
+                <div class="bedroom-details">
+                  <img src="/css/svg/bed.svg" class="icon-small" alt="" />
+                  &nbsp 3
+                </div>
+
+                <div class="bathroom-details">
+                  <img src="/css/svg/bathroom.svg" class="icon-small" alt="" />
+                  &nbsp 3
+                </div>
+
+                <div class="price-details">
+                  <img
+                    src="/css/svg/dollar.png"
+                    class="icon-small dollar-icon-fix"
+                    alt=""
+                  />
+                  6500
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <div class="box">
+            <a href="#">
+              <img class="home-picture" src="/css/img/features-5.jpg" alt="" />
+              <p class="card-title">Thornfield Cabin</p>
+              <div class="card-details">
+                <div class="bedroom-details">
+                  <img src="/css/svg/bed.svg" class="icon-small" alt="" />
+                  &nbsp 3
+                </div>
+
+                <div class="bathroom-details">
+                  <img src="/css/svg/bathroom.svg" class="icon-small" alt="" />
+                  &nbsp 3
+                </div>
+
+                <div class="price-details">
+                  <img
+                    src="/css/svg/dollar.png"
+                    class="icon-small dollar-icon-fix"
+                    alt=""
+                  />
+                  4500
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <div class="box">
+            <a href="#">
+              <img class="home-picture" src="/css/img/feature-6.jpg" alt="" />
+              <p class="card-title">The couch house</p>
+              <div class="card-details">
+                <div class="bedroom-details">
+                  <img src="/css/svg/bed.svg" class="icon-small" alt="" />
+                  &nbsp 3
+                </div>
+
+                <div class="bathroom-details">
+                  <img src="/css/svg/bathroom.svg" class="icon-small" alt="" />
+                  &nbsp 3
+                </div>
+
+                <div class="price-details">
+                  <img
+                    src="/css/svg/dollar.png"
+                    class="icon-small dollar-icon-fix"
+                    alt=""
+                  />
+                  9900
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="container">
+          <div class="text-right">
+            <i class="fas fa-arrow-left prev arrow-font"></i>
+            <i class="fas fa-arrow-right next arrow-font"></i>
+          </div>
         </div>
       </div>
     </section>
 
     <section class="why-us">
-      <div class="row">
+      <div class="container">
         <h3 class="title">Why Choose Us</h3>
       </div>
-      <div class="row">
+      <div class="container">
         <p>
           Housify
           <span
@@ -264,8 +302,8 @@
         </p>
       </div>
 
-      <div class="row top-padding">
-        <div class="container">
+      <div class="container top-padding">
+        <div class="row">
           <div class="col span-1-of-3 reason">
             <img src="/css/svg/commission.svg" alt="" />
             <p>Lowest Commissions</p>
@@ -283,23 +321,25 @@
     </section>
 
     <section class="review-section">
-      <div class="row">
-        <div class="col span-1-of-2">
-          <blockquote>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis
-            cumque aliquid eius quos molestiae laboriosam, provident, magnam
-            ratione maxime nihil eaque totam animi ipsam in reprehenderit harum
-            exercitationem quae quam.
-          </blockquote>
-          <p class="date">April 10, 2020</p>
-          <cite>
-            <img class="review-img" src="/css/img/customer-3.jpg" alt="" />
-            Clark Kent
-          </cite>
-        </div>
+      <div class="container">
+        <div class="row">
+          <div class="col span-1-of-2">
+            <blockquote>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis
+              cumque aliquid eius quos molestiae laboriosam, provident, magnam
+              ratione maxime nihil eaque totam animi ipsam in reprehenderit
+              harum exercitationem quae quam.
+            </blockquote>
+            <p class="date">April 10, 2020</p>
+            <cite>
+              <img class="review-img" src="/css/img/customer-3.jpg" alt="" />
+              Clark Kent
+            </cite>
+          </div>
 
-        <div class="col span-1-of-2">
-          <img class="house" src="/css/img/house.jpg" alt="" />
+          <div class="col span-1-of-2">
+            <img class="house" src="/css/img/house.jpg" alt="" />
+          </div>
         </div>
       </div>
     </section>
@@ -307,17 +347,17 @@
     <section class="contact-us">
       <h3>Want to sell your Property?</h3>
       <h4>CONTACT US</h4>
-      <div class="row">
+      <div class="container">
         <form action="" method="post">
-          <div class="row">
+          <div class="container">
             <p>Message</p>
-            <div class="row">
+            <div class="container">
               <textarea name="" id=""></textarea>
             </div>
             <p>Email Address</p>
             <input type="text" />
           </div>
-          <div class="row">
+          <div class="container">
             <a href="#" class="submit-button">
               <i class="fas fa-arrow-right next arrow-font"></i>
             </a>
@@ -327,10 +367,10 @@
     </section>
 
     <footer>
-      <div class="row">
+      <div class="container">
         <h3>housify<span>.</span></h3>
       </div>
-      <div class="row">
+      <div class="container">
         <ul>
           <li><i class="ion-social-facebook"></i></li>
         </ul>
