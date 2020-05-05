@@ -3,7 +3,7 @@
   header {
     background: linear-gradient(rgba(0, 0, 0, 0.36), rgba(0, 0, 0, 0.36)),
       url(/css/img/1024pxx.jpg) !important;
-    height: 70vh !important;
+    height: 60vh !important;
     background-size: cover !important  ;
   }
 
@@ -23,10 +23,10 @@
     font-size: 400% !important;
   }
 
-  .logo {
+  /* .logo {
     margin-top: 30px !important;
     font-size: 180% !important;
-  }
+  } */
 
   .main-nav {
     margin-top: 58px !important;
@@ -42,6 +42,7 @@
 
 @media only screen and (max-width: 991px) {
   /* small phones to small tablets: from 0 to 481px  tp 767px */
+
   .main-nav {
     margin-top: 45px !important;
   }
@@ -59,6 +60,13 @@
     height: 70vh !important;
   }
 
+  .navbar-toggler {
+    display: block !important;
+    margin-left: auto;
+  }
+  .main-nav {
+    display: none;
+  }
   .hero-text-box {
     top: 25% !important;
   }
@@ -70,11 +78,11 @@
     font-size: 400% !important;
   }
 
-  .main-nav {
+  /* .main-nav {
     display: none !important;
-  }
+  } */
   .logo {
-    font-size: 200% !important;
+    font-size: 160% !important;
     margin-top: 0 !important;
   }
 
@@ -178,9 +186,8 @@
   .logo {
     float: left;
     color: white;
-    font-size: 180% !important;
+    font-size: 160% !important;
     font-weight: 600;
-    margin-top: 18px;
     letter-spacing: 1px;
   }
   .featured-slider {

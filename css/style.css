@@ -47,6 +47,15 @@ a:visited {
   text-decoration: none;
 }
 
+.navbar-toggler .navbar-toggler-icon {
+  background-color: #fff;
+}
+
+.navbar i {
+  color: #684138;
+  padding: 5px;
+  background: white;
+}
 /*******************************/
 /**Reusable Components**/
 /*******************************/
@@ -128,21 +137,20 @@ h4 {
 }
 
 .logo {
-  float: left;
+  display: inline-block;
   color: white !important;
   font-size: 120%;
-  font-weight: 600;
+  font-weight: bold;
   margin-top: 18px;
   letter-spacing: 1px;
 }
 .logo span {
   color: #684138;
   font-weight: bold;
-  font-size: 150%;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-  line-height: initial;
   word-spacing: 0px;
+  vertical-align: top;
 }
 
 .btn-light-brown {
@@ -280,7 +288,7 @@ button img {
   vertical-align: middle;
 }
 
-i {
+.arrow-font {
   color: #684138;
   /* 3e2621 */
 }

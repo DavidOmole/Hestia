@@ -11,16 +11,16 @@ $(document).ready(function () {
         breakpoint: 1050, //taking 20px padding into consideration
         settings: {
           slidesToShow: 3,
-          slidesToScroll: 2,
+          slidesToScroll: 1,
         },
       },
-      {
-        breakpoint: 787, //taking 20px padding into consideration
-        settings: {
-          slidesToShow: 3,
-          slidesToScroll: 2,
-        },
-      },
+      // {
+      //   breakpoint: 787, //taking 20px padding into consideration
+      //   settings: {
+      //     slidesToShow: 3,
+      //     slidesToScroll: 2,
+      //   },
+      // },
       {
         breakpoint: 690, //taking 20px padding into consideration
         settings: {
