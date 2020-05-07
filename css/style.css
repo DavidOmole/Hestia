@@ -85,14 +85,14 @@ a:visited {
   padding: 8px;
   text-decoration: none;
   font-size: 36px;
-  color: #818181;
+  color: #3e2621;
   display: block;
   transition: 0.3s;
 }
 
 .overlay a:hover,
 .overlay a:focus {
-  color: #f1f1f1;
+  color: #684138;
 }
 
 .overlay .closebtn {
