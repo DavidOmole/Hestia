@@ -3,7 +3,7 @@
   header {
     background: linear-gradient(rgba(0, 0, 0, 0.36), rgba(0, 0, 0, 0.36)),
       url(/css/img/1024pxx.jpg) !important;
-    height: 60vh !important;
+    height: 70vh !important;
     background-size: cover !important  ;
   }
 
@@ -46,10 +46,6 @@
   .main-nav {
     margin-top: 45px !important;
   }
-
-  html {
-    font-size: 18px !important;
-  }
 }
 
 @media only screen and (max-width: 768px) {
@@ -71,11 +67,17 @@
     top: 25% !important;
   }
   .hero-text-box p {
-    font-size: 100% !important;
+    font-size: 70% !important;
+    max-width: 60% !important;
   }
 
   h1 {
-    font-size: 400% !important;
+    font-size: 300% !important;
+  }
+
+  select {
+    font-size: 65% !important;
+    padding: 16px 6px !important;
   }
 
   /* .main-nav {

@@ -63,7 +63,7 @@ a:visited {
 
 .overlay {
   height: 0;
-  width: 0;
+  width: 100%;
   position: fixed;
   z-index: 1;
   top: 0;
@@ -273,7 +273,6 @@ button img {
 .box {
   margin: 5px;
   margin-bottom: 40px;
-  display: inline-block;
   background-color: white;
   box-shadow: 0 3px 7px rgba(0, 0, 0, 0.19), 0 3px 4px rgba(0, 0, 0, 0.23);
 }
@@ -329,9 +328,8 @@ button img {
 .icon-small {
   display: inline-block;
   width: 18px;
-  height: auto;
+  height: 100%;
   color: #cfcfcf;
-  vertical-align: middle;
 }
 
 .arrow-font {
@@ -339,11 +337,8 @@ button img {
   /* 3e2621 */
 }
 
-.icon-small:last-of-type {
-  vertical-align: top;
-}
-.dollar-icon-fix {
-  width: 16px;
+.icon-small {
+  vertical-align: middle;
 }
 
 section.why-us p {

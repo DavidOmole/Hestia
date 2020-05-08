@@ -2,7 +2,7 @@ $(document).ready(function () {
   $(".featured-slider").slick({
     slidesToShow: 4,
     slidesToScroll: 1,
-    autoplay: true,
+    autoplay: false,
     autoplaySpeed: 3000,
     nextArrow: $(".next"),
     prevArrow: $(".prev"),
@@ -14,13 +14,13 @@ $(document).ready(function () {
           slidesToScroll: 1,
         },
       },
-      // {
-      //   breakpoint: 787, //taking 20px padding into consideration
-      //   settings: {
-      //     slidesToShow: 3,
-      //     slidesToScroll: 2,
-      //   },
-      // },
+      {
+        breakpoint: 787, //taking 20px padding into consideration
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 1,
+        },
+      },
       {
         breakpoint: 690, //taking 20px padding into consideration
         settings: {
@@ -41,11 +41,9 @@ $(document).ready(function () {
 });
 
 function openNav() {
-  document.getElementById("myNav").style.width = "100%";
   document.getElementById("myNav").style.height = "100%";
 }
 
 function closeNav() {
-  document.getElementById("myNav").style.width = "0%";
   document.getElementById("myNav").style.height = "0%";
 }
