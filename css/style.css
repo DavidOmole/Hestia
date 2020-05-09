@@ -236,6 +236,7 @@ select {
   border: 0;
   font-size: 80%;
   outline: none;
+  background: white;
 }
 
 .col-btn-container {
