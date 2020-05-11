@@ -283,7 +283,7 @@ button img {
   margin: 5px;
   margin-bottom: 40px;
   background-color: white;
-  box-shadow: 0 3px 7px rgba(0, 0, 0, 0.19), 0 3px 4px rgba(0, 0, 0, 0.23);
+  box-shadow: 0px 2px 5px 2px #a9a9a935;
 }
 .box .home-picture {
   width: 100%;
@@ -355,7 +355,7 @@ section.why-us {
 }
 section.why-us p {
   text-align: center;
-  font-size: 90%;
+  font-size: 70%;
 }
 section.why-us span {
   color: #8d8b8b;
