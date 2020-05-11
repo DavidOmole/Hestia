@@ -122,6 +122,11 @@ a:visited {
   margin-bottom: 60px;
 }
 
+.section-seperator {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
 /*******************************/
 /**HEADINGS**/
 /*******************************/
