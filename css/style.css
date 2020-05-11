@@ -123,8 +123,7 @@ a:visited {
 }
 
 .section-seperator {
-  padding-top: 60px;
-  padding-bottom: 60px;
+  padding: 80px 0;
 }
 
 /*******************************/
@@ -145,7 +144,8 @@ h1 {
   font-size: 180%;
 } */
 h3,
-h4 {
+h4,
+h5 {
   text-align: center;
 }
 
@@ -160,12 +160,15 @@ h4:after {
 }
 
 h4 {
-  font-size: 120%;
+  font-size: 140%;
   text-align: center;
   margin-top: 40px;
   letter-spacing: 2px;
 }
 
+h5 {
+  font-size: 110%;
+}
 /*******************************/
 /**HERO**/
 /*******************************/
@@ -347,8 +350,12 @@ button img {
   vertical-align: middle;
 }
 
+section.why-us {
+  background-color: #3e2621;
+}
 section.why-us p {
   text-align: center;
+  font-size: 70%;
 }
 section.why-us span {
   color: #8d8b8b;
@@ -358,7 +365,7 @@ section.why-us img {
   width: 30%;
   height: auto;
   display: block;
-  margin: 0 auto;
+  margin: 30px 20px;
 }
 
 .span-1-of-3 p {
